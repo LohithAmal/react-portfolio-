@@ -43,3 +43,48 @@ nav ul li {
   border-bottom: 0.2rem solid var(--primary-yellow);
 }
 /* navbar styling ends =================== */
+
+/* hero styling starts=================== */
+.hero {
+  position: relative;
+  background: url(hero.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.hero-text {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.hero-text h1 {
+  color: var(--primary-yellow);
+  text-transform: uppercase;
+  font-size: 3.5rem;
+}
+/* type effect  starts ====================*/
+.type-effect {
+  color: var(--primary-white);
+  font-size: 2rem;
+  margin-bottom: 1.7rem;
+}
+/*  type effect  ends========================= */
+
+/* button stylings start ============= */
+.button {
+  border: 2px solid var(--primary-yellow);
+  text-transform: uppercase;
+  border-radius: 0.313rem;
+  padding: 0.625rem;
+  color: var(--primary-white);
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 2 rem;
+}
