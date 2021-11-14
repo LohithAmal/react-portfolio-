@@ -2,4 +2,5 @@
 
 # npm packages
 
-- bootsrap npm i bootstrap
+- [react bootsrap](https://www.npmjs.com/package/bootstrap)
+- [react fontawsome](https://www.npmjs.com/package/@fortawesome/react-fontawesome)
