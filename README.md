@@ -8,3 +8,4 @@
 
 * emailjs
 * react hook form
+* react share
