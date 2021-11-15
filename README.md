@@ -6,4 +6,5 @@
 - [react fontawsome](https://www.npmjs.com/package/@fortawesome/react-fontawesome)
 - [react-typed](https://www.npmjs.com/package/react-typed)
 
-* [rect popup box](https://www.npmjs.com/package/reactjs-popup)
+* emailjs
+* react hook form
