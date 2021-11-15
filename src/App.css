@@ -127,4 +127,32 @@ nav ul li {
   .img-about {
     width: 10rem;
   }
-} ;
+}
+
+/* portfolio styling starts======== */
+.portfolio {
+  background-color: var(--primary-white);
+  padding: 30px 0px;
+}
+.portfolio h1 {
+  letter-spacing: 2px;
+  color: var(--primary-bootstrap-nav);
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 1.1rem;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+.title {
+  text-align: center;
+  padding: 25px 0;
+}
+.title p {
+  font-size: 18px;
+}
+.card-body {
+  box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.1);
+}
+.card {
+  margin: 20px 10px;
+}
