@@ -6,6 +6,7 @@
   --primary-bootstrap-nav: #343a40;
   --primary-red: #a9333a;
   --primary-green: #17d7a0;
+  --primary-bg: #a3a3a3;
 }
 body {
   font-family: "Poppins", sans-serif !important;
@@ -155,6 +156,14 @@ nav ul li {
 }
 .card {
   margin: 20px 10px;
+}
+/* resume============================= */
+.rpg {
+  position: relative;
+  background: url(re.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
 }
 
 /* contact styling========================= */

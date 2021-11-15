@@ -9,3 +9,4 @@
 * emailjs
 * react hook form
 * react share
+* react scroll

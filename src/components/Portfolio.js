@@ -8,11 +8,13 @@ import Pwa from "../pwa.jpg";
 import Button from "./Button";
 export const Portfolio = () => {
   return (
-    <div>
+    <div id="potfolio">
       <section className="portfolio">
         <div className="container">
           <div className="title text-center">
-            <h1>Portfolio</h1>
+            <h1>
+              Portfolio <hr />
+            </h1>
             <p>This is my featured projects and applications</p>
           </div>
           <div className="row">
@@ -32,7 +34,7 @@ export const Portfolio = () => {
                   </p>
                   <Button
                     label="code"
-                    link="https://github.com/LohithAmal"
+                    link="https://github.com/BootcampProject/Group5-COVID-Coders"
                     blank="_blank"
                   ></Button>
                 </div>
@@ -54,7 +56,7 @@ export const Portfolio = () => {
                   </p>
                   <Button
                     label="code"
-                    link="https://github.com/LohithAmal"
+                    link="https://github.com/utor2021/Work-feelings"
                     blank="_blank"
                   ></Button>
                 </div>
@@ -76,7 +78,7 @@ export const Portfolio = () => {
                   </p>
                   <Button
                     label="code"
-                    link="https://github.com/LohithAmal"
+                    link="https://github.com/LohithAmal/Task-3-passwordGenerator"
                     blank="_blank"
                   ></Button>
                 </div>
@@ -94,7 +96,7 @@ export const Portfolio = () => {
                   </p>
                   <Button
                     label="code"
-                    link="https://github.com/LohithAmal"
+                    link="https://github.com/LohithAmal/code-quiz-lohith-amal"
                     blank="_blank"
                   ></Button>
                 </div>
@@ -112,7 +114,7 @@ export const Portfolio = () => {
                   </p>
                   <Button
                     label="code"
-                    link="https://github.com/LohithAmal"
+                    link="https://github.com/LohithAmal/PWA-BUDGET-TRACKER"
                     blank="_blank"
                   ></Button>
                 </div>
@@ -134,7 +136,7 @@ export const Portfolio = () => {
                   </p>
                   <Button
                     label="code"
-                    link="https://github.com/LohithAmal"
+                    link="https://github.com/LohithAmal/UFT-12-EMPLOYEE-TRACKER"
                     blank="_blank"
                   ></Button>
                 </div>
