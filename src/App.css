@@ -9,7 +9,7 @@
 }
 body {
   font-family: "Poppins", sans-serif !important;
-  background: var(--primary-white);
+  background: var(--primary-white) !important;
 }
 /* navbar starts ==================================*/
 .my-logo {
@@ -79,12 +79,52 @@ nav ul li {
 
 /* button stylings start ============= */
 .button {
-  border: 2px solid var(--primary-yellow);
+  border: 0.188rem solid var(--primary-yellow);
   text-transform: uppercase;
+  background-color: var(--primary-bootstrap-nav);
   border-radius: 0.313rem;
   padding: 0.625rem;
+  padding: 0.625rem 0.938rem;
   color: var(--primary-white);
   font-weight: bold;
-  letter-spacing: 2px;
+  letter-spacing: 0.125rem;
   margin: 2 rem;
+  text-decoration: none;
 }
+.button:hover {
+  border-radius: 0.625rem;
+  color: (--primary-white);
+  text-decoration: none;
+}
+
+/* button stylings ends ============= */
+
+/* About me styling starts ================ */
+.About-me-wrapper {
+  margin-bottom: 0.313rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.img-about {
+  width: 400px;
+  height: 350px;
+  padding: 0.3rem;
+  margin-top: 5rem;
+}
+.heading {
+  color: var(--primary-bootstrap-nav);
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 1.1rem;
+}
+.para {
+  color: var(--primary-bootstrap-nav);
+  font-size: 1.2rem;
+  margin-bottom: 2.188rem;
+}
+@media (max-width: 470px) {
+  .img-about {
+    width: 10rem;
+  }
+} ;
