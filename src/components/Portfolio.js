@@ -2,10 +2,12 @@ import React from "react";
 import Covid from "../covid.jpg";
 import Smile from "../smile.jpg";
 import Password from "../password.jpg";
+import Squid from "../squid.jpg";
 import Quiz from "../code-quiz.jpg";
 import Employee from "../employee.jpg";
 import Pwa from "../pwa.jpg";
 import Button from "./Button";
+
 export const Portfolio = () => {
   return (
     <div id="potfolio">
@@ -23,18 +25,18 @@ export const Portfolio = () => {
               <div className="card text-center">
                 <img
                   className="card-img-top"
-                  src={Covid}
+                  src={Squid}
                   alt="covid live app image"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">COVID LIVE UPDATE APP</h5>
+                  <h5 className="card-title">Squid game eCommorce</h5>
                   <p className="card-text">
                     adipisci velit, sed quia non numquam eius modi tempora
                     incidunt ut labore et dolore
                   </p>
                   <Button
                     label="code"
-                    link="https://github.com/BootcampProject/Group5-COVID-Coders"
+                    link="https://thesquidstore.herokuapp.com/"
                     blank="_blank"
                   ></Button>
                 </div>
@@ -67,11 +69,11 @@ export const Portfolio = () => {
               <div className="card text-center">
                 <img
                   className="card-img-top"
-                  src={Password}
+                  src={Covid}
                   alt="password generator image"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Random Password generator</h5>
+                  <h5 className="card-title">Covid Live update</h5>
                   <p className="card-text">
                     adipisci velit, sed quia non numquam eius modi tempora
                     incidunt ut labore et dolore
